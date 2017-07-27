@@ -1,0 +1,21 @@
+group 'com.romanov'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "com.romanov.Main"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    ignoreFailures = true
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
