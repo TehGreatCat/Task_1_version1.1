@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: C:\Users\PaulR\IdeaProjects\Task_1\src\main\java\com\roman
+ ov\main.java
+Main-Class: com.romanov.Main
+

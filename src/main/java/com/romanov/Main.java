@@ -11,7 +11,7 @@ public class Main {
 
     static MemoryChecker Thread_2;
 
-    static Scanner sc = new Scanner(System.in).useDelimiter("//n");
+    static Scanner sc = new Scanner(System.in);
 
     static Boolean go_on_flag = true;
 
