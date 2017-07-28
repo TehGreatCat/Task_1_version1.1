@@ -17,6 +17,14 @@ public class MemoryChecker extends Thread{
         }
     }
 
+    public void sleepFor(Integer time) {
+        try {
+            sleep(time);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     @Override
     public void run() {

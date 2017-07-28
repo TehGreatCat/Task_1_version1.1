@@ -106,6 +106,11 @@ public class WordsToNums extends Thread {
                 String input = sc.nextLine();
                 if (input.equals("stop")) {
                     stopAllThreads();
+                    continue;
+                }
+                if (input.equals("wait")) {
+                    Thread_2.sleepFor(20000);
+                    continue;
                 }
                 Integer output = WordsToNums.WordsToNums(input);
                 NumsArray.add(output);
