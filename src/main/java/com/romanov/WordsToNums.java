@@ -106,6 +106,7 @@ public class WordsToNums extends Thread {
                 String input = sc.nextLine();
                 if (input.equals("stop")) {
                     stopAllThreads();
+                    continue;
                 }
                 Integer output = WordsToNums.WordsToNums(input);
                 NumsArray.add(output);
